@@ -1,107 +1,75 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-    <title>CV Regiani</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV Regiani</title>
 
-      <style>
-          body{
-                font-family: Arial, sans-serif;
-                      background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
-                            margin: 0;
-                                  padding: 0;
-                                      }
+<style>
+body{
+  margin:0;
+    font-family: Arial, sans-serif;
+      background: linear-gradient(135deg,#ff9ecb,#ff6fa5,#fbc2eb);
+        display:flex;
+          justify-content:center;
+            align-items:center;
+              height:100vh;
+              }
 
-                                          .container{
-                                                max-width: 400px;
-                                                      background: white;
-                                                            margin: 40px auto;
-                                                                  padding: 20px;
-                                                                        border-radius: 20px;
-                                                                              text-align: center;
-                                                                                    animation: slide 1.5s;
-                                                                                        }
+              .card{
+                background:white;
+                  width:300px;
+                    padding:25px;
+                      border-radius:20px;
+                        text-align:center;
+                          box-shadow:0 10px 30px rgba(0,0,0,0.2);
+                            animation: fadeUp 1s ease;
+                            }
 
-                                                                                            img{
-                                                                                                  width: 150px;
-                                                                                                        border-radius: 50%;
-                                                                                                              margin-bottom: 15px;
-                                                                                                                    animation: fade 2s;
-                                                                                                                        }
+                            img{
+                              width:120px;
+                                height:120px;
+                                  border-radius:50%;
+                                    object-fit:cover;
+                                      border:4px solid #ff6fa5;
+                                        margin-bottom:15px;
+                                          animation: float 3s ease-in-out infinite;
+                                          }
 
-                                                                                                                            h1{
-                                                                                                                                  color: #ff69b4;
-                                                                                                                                        margin-bottom: 5px;
-                                                                                                                                            }
+                                          h1{
+                                            color:#ff4f8b;
+                                              margin:5px;
+                                              }
 
-                                                                                                                                                h3{
-                                                                                                                                                      color: #555;
-                                                                                                                                                            margin-top: 20px;
-                                                                                                                                                                }
+                                              p{
+                                                font-size:14px;
+                                                  color:#555;
+                                                  }
 
-                                                                                                                                                                    p, li{
-                                                                                                                                                                          color: #333;
-                                                                                                                                                                                font-size: 14px;
-                                                                                                                                                                                    }
+                                                  @keyframes fadeUp{
+                                                    from{opacity:0; transform:translateY(30px);}
+                                                      to{opacity:1; transform:translateY(0);}
+                                                      }
 
-                                                                                                                                                                                        ul{
-                                                                                                                                                                                              list-style: none;
-                                                                                                                                                                                                    padding: 0;
-                                                                                                                                                                                                        }
+                                                      @keyframes float{
+                                                        0%{transform:translateY(0);}
+                                                          50%{transform:translateY(-8px);}
+                                                            100%{transform:translateY(0);}
+                                                            }
+                                                            </style>
+                                                            </head>
 
-                                                                                                                                                                                                            @keyframes fade{
-                                                                                                                                                                                                                  from{opacity:0;}
-                                                                                                                                                                                                                        to{opacity:1;}
-                                                                                                                                                                                                                            }
+                                                            <body>
 
-                                                                                                                                                                                                                                @keyframes slide{
-                                                                                                                                                                                                                                      from{transform: translateY(40px); opacity:0;}
-                                                                                                                                                                                                                                            to{transform: translateY(0); opacity:1;}
-                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                  </style>
-                                                                                                                                                                                                                                                  </head>
+                                                            <div class="card">
 
-                                                                                                                                                                                                                                                  <body>
+                                                              <!-- FOTO KAMU -->
+                                                                <img src="Picsart_26-02-02_15-0.jpg" alt="Foto Profil">
 
-                                                                                                                                                                                                                                                    <div class="container">
+                                                                  <h1>Regiani</h1>
+                                                                    <p>Siswi • Kreatif • Suka memasak & makeup 💕</p>
 
-                                                                                                                                                                                                                                                        <!-- FOTO -->
-                                                                                                                                                                                                                                                            <img src="Picsart_26-02-02_15-0.jpg" alt="Foto Regiani">
+                                                                    </div>
 
-                                                                                                                                                                                                                                                                <h1>Regiani</h1>
-                                                                                                                                                                                                                                                                    <p>Lulusan SMA</p>
-
-                                                                                                                                                                                                                                                                        <h3>Tentang Diri</h3>
-                                                                                                                                                                                                                                                                            <p>
-                                                                                                                                                                                                                                                                                  Lulusan SMA yang pernah berjualan kecil-kecilan. 
-                                                                                                                                                                                                                                                                                        Aktif, ramah, bertanggung jawab, dan suka belajar hal baru.
-                                                                                                                                                                                                                                                                                            </p>
-
-                                                                                                                                                                                                                                                                                                <h3>Data Diri</h3>
-                                                                                                                                                                                                                                                                                                    <p>Tanggal Lahir: 06 Agustus 2009</p>
-                                                                                                                                                                                                                                                                                                        <p>Alamat: Baros, Bumi Priangan Persada Blok P26</p>
-                                                                                                                                                                                                                                                                                                            <p>No HP: 0881022799903</p>
-                                                                                                                                                                                                                                                                                                                <p>Instagram: @crlupp_</p>
-
-                                                                                                                                                                                                                                                                                                                    <h3>Pendidikan</h3>
-                                                                                                                                                                                                                                                                                                                        <p>SMA KP Baleendah (Lulus 2026)</p>
-
-                                                                                                                                                                                                                                                                                                                            <h3>Keahlian</h3>
-                                                                                                                                                                                                                                                                                                                                <ul>
-                                                                                                                                                                                                                                                                                                                                      <li>Berdandan / Makeup dasar</li>
-                                                                                                                                                                                                                                                                                                                                            <li>Memasak</li>
-                                                                                                                                                                                                                                                                                                                                                </ul>
-
-                                                                                                                                                                                                                                                                                                                                                    <h3>Pengalaman Organisasi</h3>
-                                                                                                                                                                                                                                                                                                                                                        <p>Pramuka SMP (Lulus 2022)</p>
-
-                                                                                                                                                                                                                                                                                                                                                            <h3>Sertifikat</h3>
-                                                                                                                                                                                                                                                                                                                                                                <p>Pramuka – Semaphore</p>
-
-                                                                                                                                                                                                                                                                                                                                                                    <h3>Bahasa</h3>
-                                                                                                                                                                                                                                                                                                                                                                        <p>Indonesia</p>
-
-                                                                                                                                                                                                                                                                                                                                                                          </div>
-
-                                                                                                                                                                                                                                                                                                                                                                          </body>
-                                                                                                                                                                                                                                                                                                                                                                          </html>
+                                                                    </body>
+                                                                    </html>
